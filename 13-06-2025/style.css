@@ -1,0 +1,87 @@
+* {
+  font-family: 'Times New Roman', Times, serif
+}
+
+/*Changes the font for all text on every page*/
+body {
+  background-color: rgb(128, 255, 249);
+
+}
+
+/*Background colour for all pages (body of page)*/
+h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+/*This shows the size of the text
+the alignment of the text to the centre
+the font I chose*/
+h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+
+/*This shows the size of the text
+the font I chose and the margin between the text and the boxes on the page. Making no margin between*/
+.topnav {
+  position: sticky;
+  top: 0px;
+  overflow: hidden;
+  width: 100%;
+  height: 30px;
+
+  background-color: #c0b8b8;
+}
+
+/*This shows the postion of the navigation bar to stay when you move up and down website
+top shows that there is no gap between nav bar and header
+overflow means that anything that overflows onto the navigation bar is hidden and not shown to the user
+width and height tells us the size of the nav bar showing us a height of 30px and the width covering from left to right of the page*/
+.topnav a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+/*This shows that the navigation a floats the text to the left of the navigation bar
+the text alignment tels us the text is aligned to the center
+there is no text decoration
+font size of the text
+the transition and animation when you hover over the selected text / page you want to go to*/
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*This shows that there is no float meaning the text will stay in the center
+the postition stays aboslute with no change but keeps it in the middle
+50% of the alignment is to the top and 50% to the left
+it transforms into the center translating to -50% and -50%*/
+.topnav-right {
+  float: right;
+}
+
+/*The text floats to the right on the top nav bar*/
+
+a {
+  color: rgb(0, 0, 0);
+
+}
+
+/*Colour of the text in the nav bar is black*/
+.topnav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 30px;
+}
+
+/*This tells us the background of the nav bar being a grey colour
+the font size of the text inside being 30px*/

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown-list {
+            --item-size:60px;
+            background: orange;
+            width:fit-content;
+            height: var(--item-size);
+            overflow: hidden;
+
+            .item {
+                cursor: pointer;
+                height: var(--item-size);
+                font-size: var(--item-size);
+
+                display: flex;
+                align-items: center;
+            }
+            .icon { 
+                height:var(--item-size);
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+
+            .item:hover {
+                background: green;
+            }
+        }
+
+        .dropdown-list:hover {
+            height: fit-content;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown-list">
+        <div class="icon">
+            Menu:
+            <img src="../../images/Dumbell1.png" alt="dumbell hamburger menu">
+        </div>
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+    </div>
+</body>
+
+</html>
