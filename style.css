@@ -1,10 +1,8 @@
-* {
-  font-family: 'Arial, Helvetica, serif'
-}
-
 /*Changes the font for all text on every page*/
 body {
-  background-color: rgb(128, 255, 249);
+  background-color: darkgreen;
+  font-family: 'Arial, Helvetica, serif';
+  color: rgb(175, 174, 174);
 
 }
 
@@ -12,7 +10,7 @@ body {
 h1 {
   font-size: 40px;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif
+  color: white;
 }
 
 /*This shows the size of the text
@@ -20,7 +18,7 @@ the alignment of the text to the centre
 the font I chose*/
 h2 {
   font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
+
   margin-bottom: 0px;
 }
 
@@ -32,7 +30,7 @@ the font I chose and the margin between the text and the boxes on the page. Maki
 the font size of the text inside being 30px*/
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: #0aaf73;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -46,7 +44,7 @@ the font size of the text inside being 30px*/
 }
 
 .navbar {
-  background: rgb(216, 215, 212);
+  background: #d1c021;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,6 +63,7 @@ the font size of the text inside being 30px*/
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  right: 0;
 }
 
 /* Links inside the dropdown */
