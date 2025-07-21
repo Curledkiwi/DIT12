@@ -1,8 +1,14 @@
 /*Changes the font for all text on every page*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+  font-family: 'Nunito Sans';
+}
+
 body {
   background-color: darkgreen;
   font-family: 'Arial, Helvetica, serif';
-  color: rgb(175, 174, 174);
+  color: rgb(255, 255, 255);
 
 }
 
@@ -18,8 +24,9 @@ the alignment of the text to the centre
 the font I chose*/
 h2 {
   font-size: 35px;
-
+  color: #ffffff;
   margin-bottom: 0px;
+  font: Montserrat;
 }
 
 /*This shows the size of the text
