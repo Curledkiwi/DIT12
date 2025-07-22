@@ -12,6 +12,59 @@ body {
 
 }
 
+
+.city-fitness {
+  background: rgb(40, 38, 190);
+
+  .dropbtn {
+    background: rgb(255, 30, 0);
+  }
+
+  .navbar {
+    background: rgb(26, 11, 80);
+  }
+
+  .dropdown:hover .dropbtn {
+    background: black;
+  }
+}
+
+.flex-fitness {
+  background: rgb(0, 0, 0);
+
+  .dropbtn {
+    background: rgba(251, 255, 0, 0.733);
+  }
+
+  .navbar {
+    background: rgb(119, 108, 9);
+  }
+
+  .dropdown:hover .dropbtn {
+    background: black;
+  }
+}
+
+.stadium-fitness {
+  background: rgb(255, 255, 255);
+
+  .dropbtn {
+    background: rgba(1, 81, 255, 0.733);
+  }
+
+  .navbar {
+    background: rgb(0, 162, 255);
+  }
+
+  .dropdown:hover .dropbtn {
+    background: rgb(0, 0, 0);
+  }
+
+  * {
+    color: black;
+  }
+}
+
 /*Background colour for all pages (body of page)*/
 h1 {
   font-size: 40px;
