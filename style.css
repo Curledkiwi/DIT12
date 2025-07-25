@@ -140,14 +140,14 @@ body {
 }
 
 .f45-fitness {
-  background: rgb(201, 201, 201);
+  background: rgb(255, 255, 255);
 
   .dropbtn {
-    background: rgba(0, 0, 0, 0.733);
+    background: rgba(255, 0, 0, 0.733);
   }
 
   .navbar {
-    background: rgb(255, 0, 0);
+    background: rgb(17, 0, 255);
   }
 
   .dropdown:hover .dropbtn {
@@ -159,7 +159,56 @@ body {
   }
 
   h1 {
-    color: rgb(180, 180, 180)
+    color: rgb(255, 255, 255)
+  }
+}
+
+.rangiora-fitness {
+  background: rgb(0, 0, 0);
+
+  .dropbtn {
+    background: rgba(0, 0, 0, 0.733);
+  }
+
+  .navbar {
+    background: rgb(255, 255, 255);
+  }
+
+  .dropdown:hover .dropbtn {
+    background: rgb(163, 163, 163);
+  }
+
+  * {
+    color: rgb(255, 255, 255);
+  }
+
+  h1 {
+    color: rgb(0, 0, 0)
+  }
+}
+
+
+.saints-fitness {
+  background: rgb(0, 0, 0);
+
+  .dropbtn {
+    background: rgba(0, 0, 0, 0.733);
+  }
+
+  .navbar {
+    background: rgb(255, 255, 255);
+  }
+
+  .dropdown:hover .dropbtn {
+    background: rgb(163, 163, 163);
+  }
+
+  * {
+    color: rgb(255, 255, 255);
+  }
+
+  h1 {
+    color: rgb(0, 0, 0)
   }
 }
 
