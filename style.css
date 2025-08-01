@@ -251,7 +251,7 @@ the font size of the text inside being 30px*/
 }
 
 .navbar {
-  background: #d1c021;
+  background: rgb(209, 192, 33);
   display: flex;
   align-items: center;
   justify-content: space-between;
