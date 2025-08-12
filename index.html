@@ -5,9 +5,7 @@
 
     </title>
     <link rel="stylesheet" href="style.css">
-    <style>
-
-    </style>
+    <link rel="icon" type="image/png" href="images/wicon.png">
 </head>
 <img src="images/waimakariri.png" width="1890px" height="500">
 
@@ -52,6 +50,43 @@
         them
     </div>
 
+    <h2>Voting poll</h2>
+    <div style="border: 2px #d1c021 dashed;padding: 5px;">
+        <form id="poll-form">
+            <p>Please select your favorite Gym</p>
+              <input type="radio" id="cave" name="fav_gym" value="cave" required>
+              <label for="cave">Cave Fitness</label><br>
+
+              <input type="radio" id="city" name="fav_gym" value="city" required>
+              <label for="css">City Fitness</label><br>
+
+              <input type="radio" id="f45" name="fav_gym" value="f45" required>
+              <label for="f45">F45 Fitness</label><br>
+
+              <input type="radio" id="flex" name="fav_gym" value="flex" required>
+              <label for="flex">Flex Fitness</label><br>
+
+              <input type="radio" id="kaiapoi" name="fav_gym" value="kaiapoi" required>
+              <label for="kaiapoi">Kaiapoi Fitness</label><br>
+
+              <input type="radio" id="rangiora" name="fav_gym" value="rangiora" required>
+              <label for="rangiora">Rangiora Fitness</label><br>
+
+              <input type="radio" id="saints" name="fav_gym" value="saints" required>
+              <label for="saints">Saints Fitness</label><br>
+
+              <input type="radio" id="snap" name="fav_gym" value="snap" required>
+              <label for="snap">Snap Fitness</label><br>
+
+              <input type="radio" id="stadium" name="fav_gym" value="stadium" required>
+              <label for="stadium">Stadium Fitness</label><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+
     <h2>What is the Waimakariri</h2>
     <div style="border: 2px #d1c021 dashed;padding: 5px;">
         Waimakariri is a district located in the Canterbury region of New Zealand’s South Island. It is north of
@@ -74,7 +109,15 @@
             Providers</a>
     </div>
     </div>
-
+    <script>
+        const form = document.getElementById("poll-form");
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const data_form = new FormData(form);
+            console.log(Object.fromEntries(data_form));
+            location.href = "vote.html";
+        })
+    </script>
 </body>
 
 </html>
