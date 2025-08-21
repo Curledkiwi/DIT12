@@ -9,8 +9,29 @@ body {
   background-color: darkgreen;
   font-family: 'Arial, Helvetica, serif';
   color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
 
 }
+
+.border {
+  border: 2px #d1c021 dashed;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.images {
+  height: auto;
+  width: auto;
+}
+
+
+.star {
+  width: 50px;
+  height: 50px;
+}
+
 
 /*All these are different bodies relating to different gym pages */
 .city-fitness {
@@ -295,3 +316,7 @@ the font size of the text inside being 30px*/
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+
+
+@media only screen and (max-width: 600px) {}
