@@ -1,0 +1,7 @@
+Complete the following 
+
+
+Fix images to fit into height 500px width 1890px 
+
+Kanban board 
+Gantt chart
