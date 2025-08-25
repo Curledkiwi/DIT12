@@ -1,0 +1,53 @@
+.city-fitness {
+    --background: rgb(27, 53, 167);
+    --foreground: rgb(255, 255, 255);
+    --accent: rgb(255, 0, 0);
+}
+
+.flex-fitness {
+    --background: rgb(27, 53, 167);
+    --foreground: rgb(24, 2, 2);
+    --accent: rgb(255, 0, 0);
+}
+
+.stadium-fitness {
+    --background: rgb(27, 53, 167);
+    --foreground: rgb(255, 255, 255);
+    --accent: rgb(255, 0, 0);
+}
+
+.cave-fitness {
+    --background: rgb(224, 226, 231);
+    --foreground: rgb(0, 0, 0);
+    --accent: rgb(0, 4, 255);
+}
+
+.kaiapoi-fitness {
+    --background: rgb(27, 53, 167);
+    --foreground: rgb(255, 255, 255);
+    --accent: rgb(255, 0, 0);
+}
+
+.snap-fitness {
+    --background: rgb(27, 53, 167);
+    --foreground: rgb(255, 255, 255);
+    --accent: rgb(255, 0, 0);
+}
+
+.f45-fitness {
+    --background: rgb(27, 53, 167);
+    --foreground: rgb(255, 255, 255);
+    --accent: rgb(255, 0, 0);
+}
+
+.rangiora-fitness {
+    --background: rgb(27, 53, 167);
+    --foreground: rgb(255, 255, 255);
+    --accent: rgb(255, 0, 0);
+}
+
+.saints-fitness {
+    --background: rgb(27, 53, 167);
+    --foreground: rgb(255, 255, 255);
+    --accent: rgb(255, 0, 0);
+}
