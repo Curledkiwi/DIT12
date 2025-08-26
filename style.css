@@ -4,6 +4,7 @@
 
 :root {
   --navbar-size: 5vh;
+  --page-padding: 16px;
   --dropdown-content-size: 160px;
 }
 
@@ -31,7 +32,7 @@ body {
   height: fit-content;
   box-sizing: border-box;
   margin: 0;
-  padding: 16px;
+  padding: var(-page-padding);
   background: var(--background);
 
   .border {
@@ -146,12 +147,65 @@ h2 {
   color: var(--dropdown-content-hover-foreground)
 }
 
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 80px;
+.mobile {
+  * {
+    font-size: 1.3em;
   }
 
-  h2 {
-    font-size: 50px;
+  h3 {
+    font-size: 0.8em;
+  }
+
+  :root {
+    --navbar-size: 10vh !important;
+  }
+
+
+
+  .navbar {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+      width: 65%;
+      background: red;
+      height: 100%;
+      font-size: 1.1em;
+    }
+
+    .options {
+      width: 35%;
+      display: flex;
+    }
+  }
+
+
+  .dropdown {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: relative;
+
+    .dropbtn {
+      padding: 0px !important;
+      margin: 0px !important;
+      width: 100%;
+    }
+
+    /* Contains the dropdown items */
+    .dropdown-content {
+      position: fixed;
+      top: var(--navbar-size);
+      left: 0;
+      width: 100vw;
+      height: calc(100vh - var(--navbar-size));
+      overflow: scroll !important;
+
+      a {
+        font-size: 1em;
+      }
+    }
   }
 }
