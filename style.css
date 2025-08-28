@@ -3,9 +3,13 @@
 @import url('colors.css');
 
 :root {
-  --navbar-size: 5vh;
+  --navbar-size: 80px;
   --page-padding: 16px;
   --dropdown-content-size: 160px;
+}
+
+*:not(a) {
+  transition: all 0.5s ease-in-out;
 }
 
 * {
@@ -127,6 +131,7 @@ h2 {
       padding: 12px 16px;
       text-decoration: none;
       display: block;
+      color: var(--dropdown-content-foreground);
     }
   }
 }
@@ -147,7 +152,7 @@ h2 {
   color: var(--dropdown-content-hover-foreground)
 }
 
-.mobile {
+@media only screen and (max-width: 600px) {
   * {
     font-size: 1.3em;
   }
@@ -157,7 +162,7 @@ h2 {
   }
 
   :root {
-    --navbar-size: 10vh !important;
+    --navbar-size: 140px !important;
   }
 
 
@@ -170,7 +175,6 @@ h2 {
 
     .title {
       width: 65%;
-      background: red;
       height: 100%;
       font-size: 1.1em;
     }

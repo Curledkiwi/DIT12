@@ -1,6 +1,12 @@
 document.querySelectorAll(".dropdown-content").forEach((element) => {
-    const windowwidth = getComputedStyle(document.documentElement).getPropertyValue('--mobile-width');
     element.addEventListener("mouseenter", () => {
-        element.style.background = "orange";
+        if (window.innerWidth <= 600) {
+            console.log(window.innerWidth);
+            document.body.style.overflow = "hidden";
+        }
     })
-}
+
+    element.addEventListener("mouseleave", () => {
+        document.body.style.overflow = "auto";
+    })
+});
